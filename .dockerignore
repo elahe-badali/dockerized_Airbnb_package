@@ -1,0 +1,9 @@
+
+.git
+.venv
+__pycache__
+.ipynb_checkpoint
+
+data/preprocessed
+reports
+
