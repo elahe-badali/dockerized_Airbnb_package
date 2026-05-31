@@ -1,8 +1,6 @@
 # Airbnb Ops — Dockerized Neighbourhood Summary Pipeline
 
-Airbnb Ops is a small, reproducible Python data pipeline for building a neighbourhood-level summary from sample Airbnb listing data.
-
-The project demonstrates a basic MLOps/data-ops workflow.
+Airbnb Ops is a small reproducible data pipeline that converts raw Airbnb listing data into a clean neighbourhood summary. It reads the raw CSV files, removes direct PII, creates aggregated neighbourhood metrics, validates the result, and saves the output as a CSV plus a Markdown report. The project is packaged as a Python CLI so the whole pipeline can run with one command. Docker makes the project portable by running it in the same environment everywhere, and DVC helps track the pipeline stages, inputs, and outputs so the workflow can be reproduced when the data or code changes.
 
 ---
 
