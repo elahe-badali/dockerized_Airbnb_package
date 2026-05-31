@@ -13,8 +13,8 @@ stages:
       size: 182
     - path: src/airbnb_ops
       hash: md5
-      md5: d09101cba15f9b52156976bb1c16237b.dir
-      size: 12391
+      md5: 949f58c24c39669aee023a1ac9f81338.dir
+      size: 12465
       nfiles: 15
     outs:
     - path: data/processed/airbnb_neighbourhood_summary.csv
