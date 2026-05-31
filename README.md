@@ -2,15 +2,7 @@
 
 Airbnb Ops is a small, reproducible Python data pipeline for building a neighbourhood-level summary from sample Airbnb listing data.
 
-The project demonstrates a basic MLOps/data-ops workflow:
-
-- package code with a `src/` layout
-- read raw CSV inputs
-- remove direct PII and pseudonymize host identifiers
-- transform listing-level data into neighbourhood-level metrics
-- validate the final output
-- expose the pipeline through a Typer CLI
-- run the same workflow locally, with Docker, or with DVC
+The project demonstrates a basic MLOps/data-ops workflow.
 
 ---
 
